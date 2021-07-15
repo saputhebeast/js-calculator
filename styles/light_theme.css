@@ -5,3 +5,108 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+
+/* main div */
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(127, 226, 150, 1);
+}
+
+/* header */
+h1{
+    text-align: center;
+    margin-bottom: 1.5%;
+    color: #fff;
+    font-size: 3em;
+}
+
+/* containers */
+.container{
+    width: 400px;
+}
+
+/* result box */
+#edu{
+    width: 73%;
+}
+
+/* input */
+input{
+    padding: 25px;
+    color: rgb(rgb(228, 147, 147), rgb(110, 207, 110), rgb(85, 85, 221));
+    font-size: 1em;
+    cursor: pointer;
+    width: 23.6%;
+    height: 23.6%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+/* rows */
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row{
+    margin-bottom: 3px;
+}
+
+/* input==> button */
+input[type = "button"]{
+    color: blue;
+}
+
+/* input==> text */
+input[type= "text"]{
+    background-color: #fff;
+    width: 200px;
+}
+
+/* input==> button hover */
+input[type = "button"]:hover{
+    background-color:green;
+    color: #fff;
+}
+
+/* clear button */
+#clear{
+    color: #fff;
+    background-color: rgb(255, 25, 25);
+}
+
+/* buttons */
+button{
+    border: none;
+    background-color: rgb(41, 38, 38);
+    padding: 8px;
+    color:#fff;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+/* a {
+    text-decoration: none;
+    border: none;
+    background-color: rgb(41, 38, 38);
+    padding: 8px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+} */
+
+#mode{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}

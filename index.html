@@ -12,8 +12,8 @@
             <h1>Calculator</h1>
             <div class="first-row">
                 <!-- clr() function will call clr to clear all value -->
-                <input type="button" value="C" onclick="clr()"/>
                 <input type="text" value="" id="edu"/>
+                <input type="button" value="C" onclick="clr()" id="clear"/>
             </div>
             <div class="second-row">
                 <!-- creating buttons and assigning values-->
@@ -38,11 +38,11 @@
                 <input type="button" value="/" id="val" onclick="dis('/')"/>
                 <input type="button" value="." id="val" onclick="dis('.')"/>
                 <input type="button" value="0" id="val" onclick="dis('0')"/>
-            </div>
-            <div class="buttons">
                 <!-- Evaluating function call eval()-->
                 <input type="button" value="=" onclick="solve()"/>
-                <button onclick="changeTheme()" id="dark-mode">Dark Mode</button>
+            </div>
+            <div class="buttons">
+                <button onclick="changeTheme()" id="mode">Dark Mode<i class="fas fa-moon"></i></button>
             </div>
         </div>
     </div>
