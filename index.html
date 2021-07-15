@@ -4,8 +4,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/light_theme.css">
-    
+    <link rel="stylesheet" href="/styles/light_theme.css" id="theme">
+    <link rel="icon" href="https://img.icons8.com/bubbles/100/000000/calculator.png" type="image/png" sizes="16x16">
 </head>
 <body>
     <div class="wrapper">
@@ -42,8 +42,8 @@
                 <!-- Evaluating function call eval()-->
                 <input type="button" value="=" onclick="solve()"/>
             </div>
-            <div class="buttons">
-                <button onclick="changeTheme()" id="mode">Dark Mode<i class="fa fa-sun-o" aria-hidden="true"></i>                </button>
+            <div class="buttons" id="button">
+                <button onclick="changeTheme()" id="mode">Light Mode🌚</button>
             </div>
         </div>
     </div>
