@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/light_theme.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Calculator</h1>
+            <div class="first-row">
+                <!-- clr() function will call clr to clear all value -->
+                <input type="button" value="C" onclick="clr()"/>
+                <input type="text" value="" id="edu"/>
+            </div>
+            <div class="second-row">
+                <!-- creating buttons and assigning values-->
+                <input type="button" value="+" id="val" onclick="dis('+')"/>
+                <input type="button" value="1" id="val" onclick="dis('1')"/>
+                <input type="button" value="2" id="val" onclick="dis('2')"/>
+                <input type="button" value="3" id="val" onclick="dis('3')"/>
+            </div>
+            <div class="third-row">
+                <input type="button" value="-" id="val" onclick="dis('-')"/>
+                <input type="button" value="4" id="val" onclick="dis('4')"/>
+                <input type="button" value="5" id="val" onclick="dis('5')"/>
+                <input type="button" value="6" id="val" onclick="dis('6')"/>
+            </div>
+            <div class="fourth-row">
+                <input type="button" value="*" id="val" onclick="dis('*')"/>
+                <input type="button" value="7" id="val" onclick="dis('7')"/>
+                <input type="button" value="8" id="val" onclick="dis('8')"/>
+                <input type="button" value="9" id="val" onclick="dis('9')"/>
+            </div>
+            <div class="fifth-row">
+                <input type="button" value="/" id="val" onclick="dis('/')"/>
+                <input type="button" value="." id="val" onclick="dis('.')"/>
+                <input type="button" value="0" id="val" onclick="dis('0')"/>
+            </div>
+            <div class="buttons">
+                <!-- Evaluating function call eval()-->
+                <input type="button" value="=" onclick="solve()"/>
+                <button onclick="changeTheme()" id="dark-mode">Dark Mode</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
