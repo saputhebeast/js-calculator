@@ -14,7 +14,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(127, 226, 150, 1);
+    background-color: rgb(28, 28, 28);
     transition: 0.8s all;
 }
 
@@ -22,7 +22,7 @@
 h1{
     text-align: center;
     margin-bottom: 1.5%;
-    color: #fff;
+    color: #D4D4D2;
     font-size: 3em;
 }
 
@@ -39,11 +39,11 @@ h1{
 /* input */
 input{
     padding: 25px;
-    color: rgb(rgb(228, 147, 147), rgb(110, 207, 110), rgb(85, 85, 221));
+    color: #1C1C1C;
     font-size: 1em;
     cursor: pointer;
     width: 70px;
-    background-color: #fff;
+    background-color: #505050;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -56,25 +56,25 @@ input{
 
 /* input==> button */
 input[type = "button"]{
-    color: blue;
+    color: #D4D4D2;
 }
 
 /* input==> text */
 input[type= "text"]{
-    background-color: #fff;
+    background-color: #D4D4D2;
     width: 218px;
 }
 
 /* input==> button hover */
 input[type = "button"]:hover{
-    background-color:green;
-    color: #fff;
+    background-color:#FF9500;
+    color: #1C1C1C;
 }
 
 /* clear button */
 #clear{
     color: #fff;
-    background-color: rgb(255, 25, 25);
+    background-color: rgb(231, 180, 38);
 }
 
 /* buttons */
