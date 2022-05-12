@@ -1,6 +1,6 @@
 let result = "";
-let lightTheme = "/styles/light_theme.css";
-let darkTheme = "/styles/dark_theme.css";
+let lightTheme = "./styles/light_theme.css";
+let darkTheme = "./styles/dark_theme.css";
 
 function dis(val){
     let res = document.getElementById("edu");
